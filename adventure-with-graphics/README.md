@@ -1,6 +1,6 @@
 # Adventure with Graphics
 
-**Adventure with Graphics** is a graphics-based programming project developed as part of **Stanford CS106AX (Programming Abstractions, Accelerated)**. The project combines **algorithmic reasoning** with **graphical rendering and interaction**, emphasizing correctness, structure, and creative problem-solving.
+**Adventure with Graphics** is a graphics-based programming project developed as part of **Stanford CS106AX**. The project combines **algorithmic reasoning** with **graphical rendering and interaction**, emphasizing correctness, structure, and creative problem-solving.
 
 This project was awarded **first place in a course-wide graphics competition**.
 
