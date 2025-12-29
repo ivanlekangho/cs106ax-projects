@@ -1,0 +1,34 @@
+{
+    "4c9ed8f0-9d13-4be4-879c-ac4cea500974": {
+        "id": "4c9ed8f0-9d13-4be4-879c-ac4cea500974",
+        "message": "BOBA PARTY!",
+        "timestamp": "Fri Dec 05 16:21:14 2025",
+        "username": "Ben Yan",
+        "liked_by": [],
+        "comments": []
+    },
+    "ccf176a3-f617-4108-ab71-5ffa773a5d5c": {
+        "id": "ccf176a3-f617-4108-ab71-5ffa773a5d5c",
+        "message": "woof",
+        "timestamp": "Fri Dec 05 16:21:21 2025",
+        "username": "Doris Beyonce James-Cain",
+        "liked_by": [],
+        "comments": []
+    },
+    "dcb600a6-c3e2-4f15-99e9-76f4726608c8": {
+        "id": "dcb600a6-c3e2-4f15-99e9-76f4726608c8",
+        "message": "Hi",
+        "timestamp": "Fri Dec 05 16:21:55 2025",
+        "username": "Eugene Francisco",
+        "liked_by": [],
+        "comments": []
+    },
+    "c17740b3-3314-4646-b2ff-85989f0c849c": {
+        "id": "c17740b3-3314-4646-b2ff-85989f0c849c",
+        "message": "Hi",
+        "timestamp": "Fri Dec 05 16:22:20 2025",
+        "username": "Ivan Ho",
+        "liked_by": [],
+        "comments": []
+    }
+}
