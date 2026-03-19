@@ -1,61 +1,58 @@
-# Flutterer
+# Flutterer — Social Media Platform
+**Stanford CS106AX — Ivan Ho**
 
-Flutterer is a simplified social media platform inspired by Twitter/X, developed as part of **Stanford CS106AX**. The project implements a **client–server architecture** supporting user accounts, posts, and timelines, with a focus on **modular design, abstraction, and correctness**.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Client--Server-orange)
 
 ---
 
 ## Overview
 
-The goal of Flutterer was to design and implement a small but complete networked system. Rather than maximizing features, the project emphasizes:
+Flutterer is a simplified Twitter/X-inspired social media platform built on a **client–server architecture**. The project implements a complete networked system from scratch — user accounts, posts, timelines, and server-side state — with an emphasis on **modular design, clean abstraction boundaries, and correctness**.
 
-* Clear separation of responsibilities between server components
-* Correct handling of user state and requests
-* Readable, maintainable program structure
+The goal was not to maximize features but to build a small system whose components are clearly separated, easy to reason about, and reliable under iterative development.
 
-The project prioritizes **systems reasoning and abstraction** over UI polish.
+---
+
+## Technical Skills Demonstrated
+
+| Area | Details |
+|---|---|
+| **Architecture** | Client–server design with clear separation of responsibilities |
+| **Backend** | Python server handling stateful requests |
+| **Systems thinking** | Modular component design, abstraction layers |
+| **Dev workflow** | Auto-restarting server on file change for rapid iteration |
 
 ---
 
 ## Features
 
-* Posting short messages (“floots”)
-* Creating comments
-* Liking posts and comments
-* Viewing timelines and user feeds
-* Server-side request handling and state management
-* Automatic server restart during development
-
----
-
-## Architecture
-
-* **Backend:** Python-based server
-* **Design model:** Client–server architecture
-* **Entry point:** `run_server.py`
-
-The server monitors source files and automatically restarts when changes are detected, enabling rapid debugging and iterative development.
+- User accounts and authentication
+- Posting short messages ("floots") and comments
+- Liking posts and comments
+- Timeline and user feed views
+- Server-side request handling and state management
+- Automatic server restart on source file changes
 
 ---
 
 ## How to Run
 
-1. Ensure Python 3 is installed.
-2. From the project root, start the server:
+```bash
+python run_server.py
+```
 
-   ```bash
-   python run_server.py
-   ```
-3. The server will launch locally and restart automatically when server files are modified.
+Requires Python 3. The server launches locally and restarts automatically when server files are modified.
 
-> This project is intended for local development and instructional use only.
+> Intended for local development and instructional use only.
 
 ---
 
 ## Concepts Demonstrated
 
-* Client–server system design
-* Abstraction and modular program structure
-* Stateful request handling
-* Debugging and incremental development
-* Algorithmic problem-solving in a systems context
+- Client–server system design
+- Stateful request handling
+- Abstraction and modular program structure
+- Incremental development and debugging in a networked context
 
+---
