@@ -1,45 +1,38 @@
-# Enigma Simulator
+# Enigma Simulator — Encryption Machine
+**Stanford CS106AX — Ivan Ho**
 
-This project implements a functional simulation of the **Enigma encryption machine**, developed as part of **Stanford CS106AX**. The simulator models the core mechanical and logical components of Enigma, emphasizing **algorithmic correctness, abstraction, and state management**.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Node.js](https://img.shields.io/badge/Runtime-Node.js-green)
 
 ---
 
 ## Overview
 
-The Enigma machine is a stateful encryption system whose behavior depends on:
+A fully functional simulation of the **Enigma cipher machine** — the encryption device used by Nazi Germany in World War II, famously broken by Alan Turing at Bletchley Park. The simulator accurately models the mechanical and logical components of Enigma, allowing plaintext messages to be encrypted and decrypted using historically consistent settings.
 
-* Rotor wiring and ordering
-* Rotor stepping mechanics
-* Plugboard substitutions
-* Reflector mappings
-
-This project reproduces those components in software, allowing plaintext messages to be encrypted and decrypted in a way consistent with the historical machine.
+Built with a focus on **algorithmic correctness, data abstraction, and careful state management**.
 
 ---
 
-## Features
+## Technical Skills Demonstrated
 
-* Configurable rotor order and initial positions
-* Plugboard substitution mapping
-* Accurate rotor stepping logic
-* Deterministic encryption and decryption (same settings reverse the cipher)
-
----
-
-## Concepts Demonstrated
-
-* Stateful systems and transformation pipelines
-* Algorithmic simulation of mechanical processes
-* Data abstraction and modular program design
-* Careful handling of mutable state and edge cases
+| Area | Details |
+|---|---|
+| **Algorithms** | Accurate simulation of stateful mechanical transformation pipelines |
+| **Data abstraction** | Rotors, reflector, and plugboard implemented as independent modular components |
+| **State management** | Correct handling of rotor stepping mechanics and mutable state |
+| **Correctness** | Deterministic encryption/decryption — same settings always reverse the cipher |
 
 ---
 
-## Implementation Notes
+## How the Machine Works
 
-* Written in JavaScript (`enigma.js`)
-* Components (rotors, reflector, plugboard) are implemented as independent abstractions
-* Emphasis on clarity and correctness rather than performance optimization
+Enigma's behavior depends on four independently configurable components:
+
+- **Rotor wiring and ordering** — each rotor applies a letter substitution
+- **Rotor stepping mechanics** — rotors advance with each keypress, changing the cipher
+- **Plugboard substitutions** — additional letter-swap layer before and after the rotors
+- **Reflector mapping** — sends the signal back through the rotors in reverse
 
 ---
 
@@ -49,5 +42,13 @@ This project reproduces those components in software, allowing plaintext message
 node enigma.js
 ```
 
-(Requires Node.js.)
+Requires Node.js.
 
+---
+
+## Concepts Demonstrated
+
+- Algorithmic simulation of mechanical systems
+- Stateful transformation pipelines
+- Modular data abstraction
+- Edge case handling in complex state machines
