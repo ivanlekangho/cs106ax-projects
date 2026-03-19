@@ -1,49 +1,71 @@
 # CS106AX Selected Projects
+**Stanford University — Programming Methodologies (Accelerated)**  
+*Ivan Ho*
 
-This repository contains a **curated selection of projects** completed as part of **Stanford CS106AX (Programming Methodologies, Accelerated)**. The included projects emphasize **algorithmic reasoning, abstraction, and system design**, rather than breadth of features.
-
-Only selected projects are included to reflect work that demonstrates strong structure, correctness, and clarity.
-
----
-
-## Projects Included
-
-### **Flutterer**
-
-A simplified social media platform inspired by Twitter/X, implementing a **client–server architecture** in Python and JavaScript.
-Focus areas include modular program design, state management, and clean abstraction boundaries.
-
-### **Enigma Simulator**
-
-A functional simulation of the historical **Enigma encryption machine**, emphasizing algorithmic correctness, data abstraction, and careful handling of state and transformations.
-
-### **Graphics Project**
-
-A graphics-focused program recognized with **first place in a course-wide competition**, highlighting creative problem-solving alongside rigorous implementation.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
-## Key Concepts Demonstrated
+## Overview
 
-* Algorithmic problem-solving
-* Data abstraction and modular design
-* Client–server architectures
-* Debugging and incremental development
-* Correctness-focused implementation
+A curated selection of projects from Stanford CS106AX, an accelerated introduction to computer science covering algorithmic reasoning, abstraction, and system design. Projects are selected to demonstrate **code quality, problem-solving approach, and structural clarity** rather than feature breadth.
+
+---
+
+## Projects
+
+### Flutterer — Social Media Platform
+A simplified Twitter/X-inspired platform built on a **client–server architecture** in Python and JavaScript.
+
+**Skills:** REST-style client–server communication, state management, modular backend design, clean abstraction boundaries between components
+
+---
+
+### Enigma Simulator — Encryption Machine
+A fully functional simulation of the historical **Enigma cipher machine**, the encryption device used in World War II.
+
+**Skills:** Algorithmic correctness, data abstraction, stateful transformations, edge case handling
+
+---
+
+### Graphics Project — 🥇 Course Competition Winner
+A graphics program that placed **first in a course-wide competition** judged on creativity and implementation quality.
+
+**Skills:** Creative problem-solving, performance-aware design, visual output rendering
+
+---
+
+## Technical Skills Demonstrated
+
+| Area | Details |
+|---|---|
+| **Languages** | Python, JavaScript |
+| **Architecture** | Client–server design, modular program structure |
+| **Core CS** | Algorithms, data abstraction, state management |
+| **Practices** | Incremental development, debugging, correctness-first implementation |
 
 ---
 
 ## Structure
 
-Each project lives in its own directory and includes:
+```
+├── flutterer/
+│   ├── README.md
+│   └── src/
+├── enigma/
+│   ├── README.md
+│   └── src/
+└── graphics/
+    ├── README.md
+    └── src/
+```
 
-* A brief project-specific `README.md`
-* Source code organized for clarity
-* Instructions for running the project locally
+Each project includes a project-level `README.md` with context and run instructions.
 
 ---
 
-## Context
+## Note
 
-These projects were completed individually as part of an accelerated introductory computer science course and have been lightly cleaned for readability. The repository is intended to showcase **thinking style and program structure**, not production-ready software.
-
+These projects were completed individually in an accelerated CS course and have been lightly cleaned for readability. This repository is intended to showcase **thinking style and program structure**, not production-ready software.
